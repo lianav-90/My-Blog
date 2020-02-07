@@ -1,0 +1,196 @@
+body {
+    background-color: #F1F1F1;
+}
+main {
+    width: 73%;
+    margin: auto;
+}
+section img {
+    width: 100%;
+}
+section {
+    width: 100%;
+    box-shadow: 2px 4px 10px grey;
+    margin-bottom: 4%;  
+}
+h1 {
+    text-align: center;
+}
+header p {
+    text-align: center;
+    margin-bottom: 5%;
+}
+span.black {
+    color: white;
+    background-color: black;
+    padding: 0% 1%;
+}
+p {
+    font-size: 92%;
+}
+section h3 {
+    display: inline-block;
+    font-weight: lighter;
+}
+h3:nth-child(4) {
+    color: grey;
+}
+h2 {
+    margin: 1% 0% 0% 2%;
+}
+h3:nth-child(3) {
+    margin: 0% 0% 0% 2%;
+}
+section p {
+    margin: 0% 2%;
+}
+b {
+    font-size: 92%;
+}
+section button {
+    background-color: white;
+    padding: 1.8% 2.5%;
+    border: 1px solid grey;
+    margin: 3% 0% 1.5% 2%;
+    font-weight: bold;
+}
+b {
+    margin-right: 3%;
+    margin-left: 63%;
+}
+section button:hover {
+    background-color: #D0D5D9;
+    cursor: pointer;
+}
+aside {
+    display: inline-block;
+    width: 28%;
+    vertical-align: top;
+    margin-left: 2%;
+}
+img.avatar {
+    width: 100%;
+}
+div.left {
+    display: inline-block;
+    width: 69%;
+}
+div.first {
+    box-shadow: 1px 2px 8px grey;
+    margin-bottom: 12%;
+}
+div.first div:hover {
+    background-color: #D0D5D9;
+}
+aside h3 {
+    margin: 2% 0% 0% 4%;
+}
+p.a {
+    padding: 5% 4%;
+    margin: 0;
+}
+img.small {
+    width: 15%;
+    margin: 4.5% 4%;
+    vertical-align: middle;
+}
+section, div.first {
+    background-color: white;
+}
+h3.light {
+    padding: 5% 4%;
+    background-color: #F1F1F1;
+    margin-left: 0;
+    font-weight: lighter;
+}
+p.inline::first-line {
+    font-size: 115%;
+}
+p.inline {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+hr {
+    margin: 0;
+}
+span.blue {
+    background-color: #F1F1F1;
+    font-size: 90%;
+    padding: 0% 1%;
+}
+p.countries {
+    margin: 0;
+    padding: 4% 4% 11% 4%;
+    line-height: 200%;    
+}
+span.circle {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 0.2% 1%;
+}
+footer {
+    background-color: #616161;
+}
+button:first-child {
+    background-color: #55514E;
+    color: grey;
+    padding: 0.8% 1.2%;
+    border: none;
+    margin: 1.5% 0% 0% 1%;
+}
+button:nth-child(2) {
+    background-color: black;
+    color: white;
+    padding: 0.8% 1.2%;
+    border: none;
+    margin: 1.5% 0% 0% 0%;
+    font-weight: normal;
+}
+footer i {
+    font-weight: normal;
+}
+footer p {
+    padding: 1% 1% 2.5%;
+    color: white;
+}
+a {
+    color: white;
+}
+button:first-child:hover {
+    background-color: grey;
+    color: black;
+    cursor: not-allowed;
+}
+button:nth-child(2):hover {
+    background-color: #D0D5D9;
+    cursor: pointer;
+    color: black;
+}
+@media all and (max-width: 768px) {
+    p.inline {
+        width: 65%;
+    }
+    b {
+        margin-left: 40%;
+    }
+    p.countries {
+        padding-bottom: 1%;
+    }
+}
+@media all and (max-width: 380px) {
+    div.left {
+        width: 100%;
+    }
+    b {
+        margin-left: 18%;
+    }
+    aside {
+        width: 100%;
+    }
+    div.first {
+        margin-bottom: 4%;
+    }
+}
+
